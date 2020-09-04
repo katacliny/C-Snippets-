@@ -475,7 +475,7 @@ void MakeRutemanualy(CityConnections rute){
     for(int x = 0; x < 20; x++){
       if(rute.calendar[x].day > 0){
         printf("\n");
-        printf("El dia %d del mes %d del año %d a la hora %d", rute.calendar[x].day, rute.calendar[x].mont, rute.calendar[x].year, rute.calendar[x].hour);
+        printf("El dia %d del mes %d del aÃ±o %d a la hora %d", rute.calendar[x].day, rute.calendar[x].mont, rute.calendar[x].year, rute.calendar[x].hour);
         printf("\n");
       }
     }
@@ -641,7 +641,7 @@ CityConnections addStepsManualy(CityConnections newRoute){
     newRoute.ConnectionList[lasStep] = gc(allCities[option], 5);
     lasStep++;
     printf("\n");
-    printf("Quiere añadir otra parada ?  Pulse(1)");
+    printf("Quiere aÃ±adir otra parada ?  Pulse(1)");
     printf("\n");
     printf("Quiere Continuar ?           Pulse(2)");
     printf("\n");
@@ -969,7 +969,7 @@ void MonthCalendarTreep(){
     printf("\n");
     scanf("%d", &month);
 
-    printf("Teclear el año.");
+    printf("Teclear el aÃ±o.");
     printf("\n");
     scanf("%d", &year);
 
@@ -1027,7 +1027,7 @@ void TreepInformation(){
     printf("\n");
     scanf("%d", &month);
 
-    printf("Teclear el año.");
+    printf("Teclear el aÃ±o.");
     printf("\n");
     scanf("%d", &year);
 
@@ -1202,7 +1202,7 @@ CityConnections MakeRuteCalendar(CityConnections manualRute){
     printf("\n");
     scanf("%d", &mont);
     printf("\n");
-    printf("Inserte el año:");
+    printf("Inserte el aÃ±o:");
     printf("\n");
     scanf("%d", &year);
     printf("\n");
