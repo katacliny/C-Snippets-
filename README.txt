@@ -1,4 +1,4 @@
-# C-Snippets-
+# C++ -Snippets-
 
 Este snippet c++ dibuja un calendario en la terminal con este formato.
 This c ++ snippet draws a calendar in the terminal in this format.
