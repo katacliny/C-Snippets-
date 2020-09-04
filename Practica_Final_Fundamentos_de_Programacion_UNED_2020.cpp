@@ -2,8 +2,6 @@
 * NOMBRE: #Manuel Alejandro#
 * PRIMER APELLIDO: #Garrido#
 * SEGUNDO APELLIDO: #Gongora#
-* DNI: #71804643T#
-* EMAIL: #nolodelatorre@gmail.com#
 ***************************************/
 
 #include <stdio.h>
