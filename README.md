@@ -24,6 +24,7 @@ This c ++ snippet draws a calendar in the terminal in this format.
  **
  
  Los días marcados con ** son los dias del mes que no se encuentren en el array days.
+ 
  The days marked with ** are the days of the month that are not in the days array.
 
 void drawCalendar(int m, int ye, IntegerArrayMonth days){
@@ -118,6 +119,7 @@ void drawCalendar(int m, int ye, IntegerArrayMonth days){
   }
   
 Este snippet recive un dia, mes, año y retorna el dia de la semana.
+
 This snippet receives a day, month, year and returns the day of the week.
   
 int dayofweek(int d, int m, int y)
