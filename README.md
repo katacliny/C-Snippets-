@@ -3,20 +3,25 @@
 Este snippet c++ dibuja un calendario en la terminal con este formato.
 This c ++ snippet draws a calendar in the terminal in this format.
 
-""" | L | M | M | J | V | S | D |
+| L | M | M | J | V | S | D |
+
  00  **  **  **  **  **  **
- **  **  **  **  **  **  **
- **  **  **  **  **  **  **
- **  **  **  **  **  **  **
- **  ** """
  
- """ | L | M | M | J | V | S | D |
+ **  **  **  **  **  **  **
+ 
+ **  **  **  **  **  **  **
+ 
+ **  **  **  **  **  **  **
+ 
+ **  ** 
+ 
+| L | M | M | J | V | S | D |
  --  --  --  --  --  00  **
  **  **  **  **  **  **  **
  **  **  **  **  **  **  **
  **  **  **  **  **  **  **
  **  **  **  **  **  **  **
- ** """
+ **
  
  Los días marcados con ** son los dias del mes que no se encuentren en el array days.
  The days marked with ** are the days of the month that are not in the days array.
